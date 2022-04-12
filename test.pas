@@ -4,10 +4,9 @@ uses crt;
 var i: integer;
 var k: char;
 begin
-  for i := 97 to 122 do
-  begin
-    k := chr(i);
-    writeln(k);
-  end;
-  readln;
+    for i := 97 to 122 do
+    begin
+        k := chr(i);
+        writeln(k);
+    end;
 end.
